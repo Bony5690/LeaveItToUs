@@ -1,10 +1,73 @@
 
-header{
-  background-image: url("/images/personal assistant.jpg");
+body{
+  background-image: url("../images/personal assistant.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 60px;
+  margin-top: 260px;
+  font-weight: 800;
+}
+
+ a.small-links{
+  font-size: 18px;
+}
+
+.move-right{
+  /*margin-right: 5px;*/
+}
+ #move-right{
+   font-size: 18px;
+   border: 1px solid black;
+   margin-right:  45px;
+   margin-right: 40px;
+ }
+
+ #move-too{
+   font-size: 18px;
+   border: 1px solid black;
+   margin-right:  10px;*/
+   margin-right: 40px;
+ }
+
+header nav a{
+   display: inline-block;
+   font-size: 25px;
+
+}
+
+header li {
+   display: inline-block;
+   font-size: 20px;
+   margin: 20px;
+   color: black;
+   padding-left: 5px;
+   padding-right: 15px;
+
+ }
+
+/*.col-2-3{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 66%;
+}*/
+
+
+header #logo a{
+  font-size: 24px;
+
+
+}
+
+a{
+  color:black;
 }
 
 
-.navbar-inner {
-    background:transparent;
+
+.clearfix {
+display: both;
 }
