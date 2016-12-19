@@ -13,6 +13,12 @@ body{
     margin-top: 10px;
 }
 
+.horizontal {
+    list-style-type: none;
+    display: inline;
+}
+
+
 h1.text-center{
   color: white;
 }
@@ -36,8 +42,15 @@ header{
   background-color: #f3f5f6;
 }
 
-.btn.btn-default.plans-pricing{
-  text-align: center;
+
+#pricing-button{
+  margin-top: 30px;
+  background-color: #DAA520;
+}
+
+.pricing-hover:hover{
+  background-color: 	#DAA520;
+  color: white;
 }
 
 h2.heading-title{
