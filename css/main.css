@@ -6,6 +6,8 @@ body{
   font-size: 20px;
 }
 
+
+
 .navbar-default .navbar-brand{
     color: white;
     font-weight: bold;
@@ -26,10 +28,6 @@ box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.8);
   color: white;
 }
 
-/*a{
-  color: white;
-}*/
-
 
 a.wrap{
   color: white;
@@ -41,13 +39,28 @@ a.wrap{
 
 }
 
+.space2{
+  margin-bottom: 50px;
+}
+
+.space1{
+  margin-top: 45px;
+}
+
+i
+{
+ background-color: #9ca7af;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:10px;
+}
 
 h1.text-center{
   color: white;
 }
 
 h2.text-center{
-  /*color: white;*/
+color: white;
 }
 
 header{
@@ -124,9 +137,15 @@ h1{
 
 }
 
-/*.btn.no-hover:hover{
-  background-color: : rgba(0,0,0,0);
-}*/
+h2.hand-it{
+  color: black;
+}
+
+.lead{
+  font-size: 21px;
+}
+
+
 
 navbar-nav>li>a.btn,
 .navbar-default .navbar-nav>li>a.btn{
@@ -136,6 +155,14 @@ navbar-nav>li>a.btn,
   margin-left: 5px;
   margin-right: 5px;
 
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #f7f7f7;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #f7f7f7;
 }
 
 navbar-nav>li>a.btn:focus,
@@ -151,7 +178,7 @@ navbar-nav>li>a.btn:focus,
 }
 
 .move-right{
-  /*margin-right: 5px;*/
+
 }
 
  #move-right{
@@ -179,30 +206,16 @@ header li a.small-links {
    font-size: 18px;
    margin: 10px;
    color: white;
-   /*padding-left: 15px;
-   padding-right: 15px;*/
-
- }
-
-/*.col-2-3{
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 66%;
-}*/
-
+  }
 
 header #logo a{
   font-size: 24px;
-
 
 }
 
 a{
   color:black;
 }
-
-
 
 .clearfix {
 display: both;
