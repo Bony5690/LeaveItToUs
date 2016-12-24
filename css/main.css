@@ -74,6 +74,16 @@ h2.text-center{
 color: white;
 }
 
+
+
+header#other-color{
+background-image: url("../images/taskideas2.png");
+/*background-repeat: no-repeat;
+background-size: cover;*/
+padding-bottom: 100px;
+}
+
+
 header{
   background-image: url("../images/personal assistant.png");
   background-repeat: no-repeat;
@@ -123,10 +133,6 @@ h2.heading-title{
   margin-top: 15px;
 }
 
-div.other-color{
-  background-color: gray;
-
-}
 
 ul.nav .navbar-nav .navbar-left{
   margin-top: 10px;
