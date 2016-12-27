@@ -57,6 +57,26 @@ a.wrap{
 
 }
 
+div.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+
+}
+
+.widget{
+  background: #fff;
+  border: 1px solid #e7ebed;
+  border-bottom-width: 3px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  /*float: right;*/
+    margin-bottom: 11px;
+    padding: 20px;
+}
+
 .space2{
   margin-bottom: 50px;
 }
