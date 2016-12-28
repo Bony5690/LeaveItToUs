@@ -1,5 +1,6 @@
 body{
   font-family: Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height:1.5625!important
   /*color: #777;*/
 }
 
@@ -11,6 +12,19 @@ body{
 p{
   color: #777;
 }
+
+.bottom-paragraph{
+  margin-bottom: 100px;
+}
+
+li{
+    color: #777;
+}
+
+/*.btn-primary{
+  background-color: inherit;;
+  border-color: inherit;;
+}*/
 
 
 section#plan{
@@ -57,13 +71,17 @@ a.wrap{
 
 }
 
-div.col-md-4{
+div.col-md-4 {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 40px;
 
+}
+
+.widget-color{
+font-size: 21px;
 }
 
 .widget{
@@ -75,6 +93,7 @@ div.col-md-4{
   /*float: right;*/
     margin-bottom: 11px;
     padding: 20px;
+    color: 777!important;
 }
 
 .space2{
@@ -164,7 +183,7 @@ h2.heading-title{
 }
 
 .paragraph{
-  color: #777;
+  color: #777!important;
   font-size: 18px;
   margin-top: 15px;
 }
