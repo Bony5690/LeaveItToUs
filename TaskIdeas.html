@@ -14,62 +14,308 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main2.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main2.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script
+src="https://code.jquery.com/jquery-3.1.1.js"
+integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+crossorigin="anonymous"></script>
+  <title></title>
+</head>
 <body>
+  <!-- Navaigation  -->
 
-<div class="container">
-  <h2>Dynamic Tabs</h2>
-  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+        <header id="task-picture">
+          <nav class="navbar navbar-default" role="navigation">
+             <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"><span class="navbar-logo"></i>Leave It To Us</span></a>
+             </div>
+             <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-left">
+                 <li><a class="small-links" href="AboutUs.html">About Us</a></li>
+                 <li><a class="small-links" href="#">Task Ideas</a></li>
+                 <li><a class="small-links" href="#">Plans and Pricing</a></li>
+                 <li><a class="small-links" href="#">Contact Us</a></li>
+               </ul>
+               <!-- Right part of Navigation -->
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#" class="btn">Sign In</a></li>
+                <li><a href="#" class="btn btn-default back-color">Get Started</a></li>
+               </ul>
+             </div>
+           </nav>
+          <div class="container">
+             <div class="row">
+               <div class="col-xs-12 col-md-12">
+                 <h1 class="text-center">About Us</h1>
+               </div>
+             </div>
+         </div>
+       </header>
 
-  <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="tab" href="#home">Personal Task</a></li>
-    <li><a data-toggle="tab" href="#menu1">Kids</a></li>
-    <li><a data-toggle="tab" href="#menu2">Travel</a></li>
-    <li><a data-toggle="tab" href="#menu3">Business</a></li>
-  </ul>
+<section class="tab-container">
+  <div class="container nav-container">
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>Personal Task</h3>
-      <div class="list-group-item">
-        <p>Find the best wedding venues in San Francisco, call them and ask for the availability on the 15th of December for 200 people.</p>
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a data-toggle="tab" href="#home">Personal Task</a></li>
+      <li><a data-toggle="tab" href="#menu1">Kids</a></li>
+      <li ><a data-toggle="tab" href="#menu2">Travel</a></li>
+      <li><a data-toggle="tab" href="#menu3">Business</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class="list-group-item">
+            <h3  class="list-group-item-heading">Personal Task</h3>
+          <p>Find the best wedding venues in San Francisco, call them and ask for the availability on the 15th of December for 200 people.</p>
+        </div>
+            <div class="list-group-item">
+              <p class="list-group-item-text">Our dog, Sophie, needs to go to the groomer for a bath. Can you call them and schedule an appointment for any time next week and then email me with the time?</p>
+            </div>
+               <div class="list-group-item">
+                 <p class="list-group-item-text">I need to get a present for my friend's birthday. He loves wine, so I was thinking I'd get him a subscription to a monthly wine club. Could you look online and
+                   find some wine subscription services and buy any one that you see that's nice? Have the gift message say "Happy Birthday, George!" Be sure to send me the bill.</p>
+               </div>
+
+                   <div class="list-group-item">
+                       <p>I'm going hiking soon and need a new pair of hiking shoes. Could you get me some online from my favorite store (you know the one!) in a size 10?</p>
+                   </div>
+                 <div class="list-group-item">
+                    <p>My doctor gave me a prescription for Vitamin D, but I don't know if it's ready yet, and the pharmacy hasn't called me to tell me to pick it up. Could you call them and ask them if it's ready?</p>
+                 </div>
+
+              <div class="list-group-item">
+                  <p>I need to let Tom know that I won't be able to make it to our running club next week on Monday. Could you call him and tell him I'm really sorry and ask if we could reschedule for another day next week?</p>
+              </div>
+                 <div class="list-group-item">
+                   <p>Please research and find some gifts for my Australian friend. He is fond of iPhones and comic books.</p>
+                 </div>
+
+              <div class="list-group-item">
+                    <p>Call the New York Times and tell them to pause my subscription from the 20th to the 29th of this month.</p>
+              </div>
+
+            <div class="list-group-item">
+               <p>I need to get my bicycle fixed, rear wheel is making weird noises. What's the best bike repair shop within 5 minutes walking distance of my office?</p>
+            </div>
+
+              <div class="list-group-item">
+                <p>Can you find the top 5 books about investing in bitcoins on Amazon? I'd like you to order two of them for me. Provide the results and I'll tell you which to buy.</p>
+              </div>
+
+              <div class="list-group-item">
+                  <p>I need a plumber! My guest toilet is clogged. Can you get someone here ASAP?</p>
+              </div>
+
+            <div class="list-group-item">
+              <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
+            </div>
+
+
       </div>
 
-        <p>Our dog, Sophie, needs to go to the groomer for a bath. Can you call them and schedule an appointment for any time next week and then email me with the time?</p>
-          <p>I need to get a present for my friend's birthday. He loves wine, so I was thinking I'd get him a subscription to a monthly wine club. Could you look online and
-            find some wine subscription services and buy any one that you see that's nice? Have the gift message say "Happy Birthday, George!" Be sure to send me the bill.</p>
-            <p>I'm going hiking soon and need a new pair of hiking shoes. Could you get me some online from my favorite store (you know the one!) in a size 10?</p>
-            <p>My doctor gave me a prescription for Vitamin D, but I don't know if it's ready yet, and the pharmacy hasn't called me to tell me to pick it up. Could you call them and ask them if it's ready?</p>
-            <p>I need to let Tom know that I won't be able to make it to our running club next week on Monday. Could you call him and tell him I'm really sorry and ask if we could reschedule for another day next week?</p>
-            <p>Please research and find some gifts for my Australian friend. He is fond of iPhones and comic books.</p>
-            <p>Call the New York Times and tell them to pause my subscription from the 20th to the 29th of this month.</p>
-            <p>I need to get my bicycle fixed, rear wheel is making weird noises. What's the best bike repair shop within 5 minutes walking distance of my office?</p>
-            <p>Can you find the top 5 books about investing in bitcoins on Amazon? I'd like you to order two of them for me. Provide the results and I'll tell you which to buy.</p>
-            <p>I need a plumber! My guest toilet is clogged. Can you get someone here ASAP?</p>
-            <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
-            <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
-            <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
-    </div>
-    
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      <div id="menu1" class="tab-pane fade">
+        <div class="list-group-item">
+            <h3  class="list-group-item-heading">Personal Task</h3>
+          <p>Find the best wedding venues in San Francisco, call them and ask for the availability on the 15th of December for 200 people.</p>
+        </div>
+            <div class="list-group-item">
+              <p class="list-group-item-text">Our dog, Sophie, needs to go to the groomer for a bath. Can you call them and schedule an appointment for any time next week and then email me with the time?</p>
+            </div>
+               <div class="list-group-item">
+                 <p class="list-group-item-text">I need to get a present for my friend's birthday. He loves wine, so I was thinking I'd get him a subscription to a monthly wine club. Could you look online and
+                   find some wine subscription services and buy any one that you see that's nice? Have the gift message say "Happy Birthday, George!" Be sure to send me the bill.</p>
+               </div>
+
+                   <div class="list-group-item">
+                       <p>I'm going hiking soon and need a new pair of hiking shoes. Could you get me some online from my favorite store (you know the one!) in a size 10?</p>
+                   </div>
+                 <div class="list-group-item">
+                    <p>My doctor gave me a prescription for Vitamin D, but I don't know if it's ready yet, and the pharmacy hasn't called me to tell me to pick it up. Could you call them and ask them if it's ready?</p>
+                 </div>
+
+              <div class="list-group-item">
+                  <p>I need to let Tom know that I won't be able to make it to our running club next week on Monday. Could you call him and tell him I'm really sorry and ask if we could reschedule for another day next week?</p>
+              </div>
+                 <div class="list-group-item">
+                   <p>Please research and find some gifts for my Australian friend. He is fond of iPhones and comic books.</p>
+                 </div>
+
+              <div class="list-group-item">
+                    <p>Call the New York Times and tell them to pause my subscription from the 20th to the 29th of this month.</p>
+              </div>
+
+            <div class="list-group-item">
+               <p>I need to get my bicycle fixed, rear wheel is making weird noises. What's the best bike repair shop within 5 minutes walking distance of my office?</p>
+            </div>
+
+              <div class="list-group-item">
+                <p>Can you find the top 5 books about investing in bitcoins on Amazon? I'd like you to order two of them for me. Provide the results and I'll tell you which to buy.</p>
+              </div>
+
+              <div class="list-group-item">
+                  <p>I need a plumber! My guest toilet is clogged. Can you get someone here ASAP?</p>
+              </div>
+
+            <div class="list-group-item">
+              <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
+            </div>
+  </div>
+
+      <div id="menu2" class="tab-pane fade">
+        <div class="list-group-item">
+            <h3  class="list-group-item-heading">Personal Task</h3>
+          <p>Find the best wedding venues in San Francisco, call them and ask for the availability on the 15th of December for 200 people.</p>
+        </div>
+            <div class="list-group-item">
+              <p class="list-group-item-text">Our dog, Sophie, needs to go to the groomer for a bath. Can you call them and schedule an appointment for any time next week and then email me with the time?</p>
+            </div>
+               <div class="list-group-item">
+                 <p class="list-group-item-text">I need to get a present for my friend's birthday. He loves wine, so I was thinking I'd get him a subscription to a monthly wine club. Could you look online and
+                   find some wine subscription services and buy any one that you see that's nice? Have the gift message say "Happy Birthday, George!" Be sure to send me the bill.</p>
+               </div>
+
+                   <div class="list-group-item">
+                       <p>I'm going hiking soon and need a new pair of hiking shoes. Could you get me some online from my favorite store (you know the one!) in a size 10?</p>
+                   </div>
+                 <div class="list-group-item">
+                    <p>My doctor gave me a prescription for Vitamin D, but I don't know if it's ready yet, and the pharmacy hasn't called me to tell me to pick it up. Could you call them and ask them if it's ready?</p>
+                 </div>
+
+              <div class="list-group-item">
+                  <p>I need to let Tom know that I won't be able to make it to our running club next week on Monday. Could you call him and tell him I'm really sorry and ask if we could reschedule for another day next week?</p>
+              </div>
+                 <div class="list-group-item">
+                   <p>Please research and find some gifts for my Australian friend. He is fond of iPhones and comic books.</p>
+                 </div>
+
+              <div class="list-group-item">
+                    <p>Call the New York Times and tell them to pause my subscription from the 20th to the 29th of this month.</p>
+              </div>
+
+            <div class="list-group-item">
+               <p>I need to get my bicycle fixed, rear wheel is making weird noises. What's the best bike repair shop within 5 minutes walking distance of my office?</p>
+            </div>
+
+              <div class="list-group-item">
+                <p>Can you find the top 5 books about investing in bitcoins on Amazon? I'd like you to order two of them for me. Provide the results and I'll tell you which to buy.</p>
+              </div>
+
+              <div class="list-group-item">
+                  <p>I need a plumber! My guest toilet is clogged. Can you get someone here ASAP?</p>
+              </div>
+
+            <div class="list-group-item">
+              <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
+            </div>
+
+  </div>
+
+      <div id="menu3" class="tab-pane fade">
+        <div class="list-group-item">
+            <h3  class="list-group-item-heading">Personal Task</h3>
+          <p>Find the best wedding venues in San Francisco, call them and ask for the availability on the 15th of December for 200 people.</p>
+        </div>
+            <div class="list-group-item">
+              <p class="list-group-item-text">Our dog, Sophie, needs to go to the groomer for a bath. Can you call them and schedule an appointment for any time next week and then email me with the time?</p>
+            </div>
+               <div class="list-group-item">
+                 <p class="list-group-item-text">I need to get a present for my friend's birthday. He loves wine, so I was thinking I'd get him a subscription to a monthly wine club. Could you look online and
+                   find some wine subscription services and buy any one that you see that's nice? Have the gift message say "Happy Birthday, George!" Be sure to send me the bill.</p>
+               </div>
+
+                   <div class="list-group-item">
+                       <p>I'm going hiking soon and need a new pair of hiking shoes. Could you get me some online from my favorite store (you know the one!) in a size 10?</p>
+                   </div>
+                 <div class="list-group-item">
+                    <p>My doctor gave me a prescription for Vitamin D, but I don't know if it's ready yet, and the pharmacy hasn't called me to tell me to pick it up. Could you call them and ask them if it's ready?</p>
+                 </div>
+
+              <div class="list-group-item">
+                  <p>I need to let Tom know that I won't be able to make it to our running club next week on Monday. Could you call him and tell him I'm really sorry and ask if we could reschedule for another day next week?</p>
+              </div>
+                 <div class="list-group-item">
+                   <p>Please research and find some gifts for my Australian friend. He is fond of iPhones and comic books.</p>
+                 </div>
+
+              <div class="list-group-item">
+                    <p>Call the New York Times and tell them to pause my subscription from the 20th to the 29th of this month.</p>
+              </div>
+
+            <div class="list-group-item">
+               <p>I need to get my bicycle fixed, rear wheel is making weird noises. What's the best bike repair shop within 5 minutes walking distance of my office?</p>
+            </div>
+
+              <div class="list-group-item">
+                <p>Can you find the top 5 books about investing in bitcoins on Amazon? I'd like you to order two of them for me. Provide the results and I'll tell you which to buy.</p>
+              </div>
+
+              <div class="list-group-item">
+                  <p>I need a plumber! My guest toilet is clogged. Can you get someone here ASAP?</p>
+              </div>
+
+            <div class="list-group-item">
+              <p>I need to renew my subscription to Car Magazine; it's about to expire soon. Can you go online and renew it for me? Get a 2-year subscription, if you can.</p>
+            </div>
+
     </div>
   </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <h3>Leave It To Us</h3>
+<p>Copyright © 2016 <br> Leave It To Us LLC.
+All rights reserved.</p>
 </div>
 
-</body>
-</html>
+<div class="col-xs-12 col-md-4">
+<h3>Contact Us</h3>
+<p>Leave It to Us LLC
+(872) 201-1289 <br>
+info@LeaveItToUs.com <br>
+Careers and Opportunities</p>
+</div>
+
+<div class="col-xs-12 col-md-4">
+<h3>Navigation</h3>
+<nav>
+<ul class="horizontal">
+<li><a href="index.html" class="wrap">How It Work</a></li>
+<li><a href="courses.html" class="wrap">Plans And Pricing</a></li>
+<li ><a href="students.html" class="wrap">About</a></li>
+<li ><a href="Apply Now" class="wrap">Task Ideas</a></li>
+</ul>
+</nav>
+</div>
+
+
+</div>
+</div>
+</footer>
+
+
+
+
+<script type="text/javascript" src="Js/script.js"></script>
+<script type="text/javascript" src='Js/bootstrap.js'>
+
+</script>
 
 
    </body>

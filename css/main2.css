@@ -1,0 +1,23 @@
+div.nav-container{
+  /*margin-top: 50px;*/
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+.nav-pills>li.active>a{
+  margin-bottom: 20px;
+}
+
+section.tab-container{
+  background-color: #f3f5f6;
+}
+
+p.list-group-item-text{
+  margin: 0 0 12.5px;
+}
+
+header#task-picture{
+  background-image: url("../images/ToDoList.jpg");
+  padding-bottom: 150px;
+}
