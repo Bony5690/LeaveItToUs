@@ -21,3 +21,7 @@ header#task-picture{
   background-image: url("../images/ToDoList.png");
   padding-bottom: 150px;
 }
+
+h3.footer-title{
+  color: white;
+}
