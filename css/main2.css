@@ -22,6 +22,12 @@ header#task-picture{
   padding-bottom: 150px;
 }
 
+header#Pricing{
+  background-image: url("../images/Plans and Pricing header.jpg");
+  padding-bottom: 150px;
+}
+
+
 h3.footer-title{
   color: white;
 }
