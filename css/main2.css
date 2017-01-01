@@ -38,7 +38,14 @@ h2#price{
 
 h1#plans{
   color: black;
+  margin-top: 40px;
+  font-size: 50px;
 }
+
+h2#plans{
+  color: black;
+}
+
 
 /**
  * Design Shack Pricing Table Example
@@ -47,7 +54,7 @@ h1#plans{
 
 
 * {margin: 0; padding: 0;}
-body {background: #ededed;}
+body {background: white;}
 
 #container {
 	width: 780px;
