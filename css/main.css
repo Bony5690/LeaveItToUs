@@ -37,7 +37,7 @@ section#plan{
   background-image: url("../images/plans.jpg");
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding-top: 110px;
     padding-right: 0px;
     padding-bottom: 110px;
@@ -153,6 +153,8 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 310px;
+  /*background-size: 100%;*/
+  background-position: right;
 
 }
 
