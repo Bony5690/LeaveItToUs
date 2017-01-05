@@ -27,6 +27,10 @@ li{
     color: #777;
 }
 
+.btn-primary{
+  background-color: #424448;
+  border-color: #424448;
+}
 /*.btn-primary{
   background-color: inherit;;
   border-color: inherit;;
@@ -34,11 +38,11 @@ li{
 
 
 section#plan{
-  background-image: url("../images/plans.jpg");
-
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 110px;
+  background-image: url("../images/workingwoman2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 110px;
     padding-right: 0px;
     padding-bottom: 110px;
     padding-left: 0px
@@ -179,38 +183,12 @@ header{
 
 
 
-/*make navbar collapse at different break points*/
-@media (max-width: 1100px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
+
 
 
 @media only screen and (max-width: 1121px) {
 .navbar-right {
-        margin-top: -80px;
+        margin-right: 0px;
     }
 }
 
