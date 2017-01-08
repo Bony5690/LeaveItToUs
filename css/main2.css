@@ -50,10 +50,25 @@ h2#plans{
  h4.widget-color{
   font-weight: 600;
   margin-top: 20px;
+  color: black;
 }
 
 h3.list-group-item-heading{
   font-weight: 600;
+}
+
+h5.head-color{
+color: black;
+}
+
+label.head-color{
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  div#side{
+float: right;
+    }
 }
 
 /*h5.widget-color{
