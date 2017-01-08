@@ -410,3 +410,11 @@ input {
    position: relative;
    z-index: 9999;
 }
+
+
+section#personal {
+  background-image: url("../images/GetAssistant2.jpg");
+  padding-bottom: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
