@@ -68,6 +68,7 @@ label.head-color{
 @media only screen and (max-width: 992px) {
   div#side{
 float: right;
+width: 100%;
     }
 }
 
@@ -396,7 +397,7 @@ h2.task-number{
    height: auto;
    padding:15px;
    color:#fff;
-   background:#8BC3A3;
+   background:#111;
    border:none;
    border-radius:3px;
    outline: none;
@@ -407,12 +408,16 @@ h2.task-number{
    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+   margin-bottom: 70px;
+   text-transform: uppercase;
+
  }
 
  .form-btn:hover{
-   background:#111;
+   background:#DAA520;
    color: white;
    border:none;
+
  }
 
  .form-btn:active{

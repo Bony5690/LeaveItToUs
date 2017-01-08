@@ -157,7 +157,7 @@ font-weight: 100;
 
 
 header#other-color{
-background-image: url("../images/taskideas2.png");*/
+background-image: url("../images/taskideas.png");
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -393,15 +393,16 @@ navbar-nav>li>a.btn:focus,
 .navbar-default .navbar-nav>li>a.btn.back-color:hover{
   color:white;
   background-color: 	#DAA520;
-
+  border: 3px solid #DAA520;
 }
 
 navbar-nav>li>a.btn:focus,
 .navbar-default .navbar-nav>li>a.btn.back-color{
-    border: 3px solid #DAA520;
-    text-transform: uppercase;
-    line-height: 24px;
-    color: #ffc83f;
+  border: 3px solid #ffc83f;
+text-transform: uppercase;
+line-height: 24px;
+color: #ffc83f;
+font-weight: 600;
 }
 
 .move-right{
