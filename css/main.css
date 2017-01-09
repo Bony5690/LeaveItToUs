@@ -44,13 +44,21 @@ h3#sign-up{
 
 section#plan{
   background-image: url("../images/workingwoman2.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+   /*background-repeat: no-repeat;*/
+   /*background-size: cover;*/
+   /*background-position: center;*/
    padding-top: 110px;
     padding-right: 0px;
     padding-bottom: 110px;
     padding-left: 0px
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -154,22 +162,52 @@ color: white;
 font-weight: 100;
 }
 
+div i#icon{
+  color: #9ca7af;
+}
+
 
 
 header#other-color{
 background-image: url("../images/taskideas.png");
 background-repeat: no-repeat;
 background-size: cover;
-
+height: auto;
 padding-bottom: 100px;
 }
 
 
-header{
+/*header{
   background-image: url("../images/homepage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 310px;
+  padding-bottom: 310px;*/
+  /*display: block;
+  max-width: 100%;
+  height: auto;*/
+  /*background-size: 100%;*/
+  /*background-position: left;*/
+  /*position: fixed;*/
+
+           /*min-height: 100%;
+           position: relative;
+           margin: 0 auto;
+           display: block;
+           text-align: center;*/
+
+/*}*/
+
+header{
+  /* Full height */
+   height: 100%;
+
+   /* Create the parallax scrolling effect */
+   background-image: url("../images/homepage.png");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 310px;
   /*display: block;
   max-width: 100%;
   height: auto;*/
@@ -184,6 +222,13 @@ header{
            text-align: center;*/
 
 }
+
+@media only screen and (max-device-width: 1024px) {
+    header.parallaxx {
+        background-attachment: scroll;
+    }
+}
+
 
 /*change back ground position at a certain breakpoint*/
 @media only screen and (max-width: 1122px) {
