@@ -431,6 +431,15 @@ input {
    z-index: 9999;
 }
 
+ h3#contact{
+  line-height: inherit;
+}
+
+h2.get-in-touch{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
 
 section#personal {
   background-image: url("../images/getyour.jpg");
