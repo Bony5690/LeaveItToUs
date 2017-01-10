@@ -238,6 +238,21 @@ header{
 }
 
 
+@media only screen and (max-width: 400px) {
+  header#image {
+        background-position: center;
+    }
+
+    h1.smaller-size{
+      font-size: 25px;
+    }
+
+    h2.smaller-size{
+      font-size: 25px;
+    }
+}
+
+
 /*@media (min-width: 780px) {
     .navbar-header {
         float: none;
@@ -303,6 +318,11 @@ header{
     .collapse.in{
   		display:block !important;
 	}
+}
+
+
+@media (max-width: 1121px) {
+
 }
 
 
