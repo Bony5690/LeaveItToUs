@@ -204,7 +204,7 @@ header{
    /* Create the parallax scrolling effect */
    background-image: url("../images/homepage.png");
    background-attachment: fixed;
-   background-position: center;
+   /*background-position: center;*/
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 310px;
@@ -336,6 +336,9 @@ header{
   margin-top: 30px;
   background-color: #DAA520;
   margin-bottom: 30px;
+  border-color: #DAA520;
+  text-transform: uppercase;
+
 }
 
 .pricing-hover:hover{
