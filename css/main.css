@@ -237,11 +237,11 @@ header{
     }
 }
 
-
+/*change back-ground image at a certain breakpoint*/
 @media only screen and (max-width: 500px) {
   header#image {
-        background-position: right;
-        background-image: url("../images/taskideas2.jpg");
+        background-position: center;
+        background-image: url("../images/taskideas2.png");
     }
 
     /*h1.smaller-size{
@@ -404,6 +404,13 @@ header{
 h2.heading-title{
   font-size: 40px;
   margin-top: 40px;
+}
+
+h2#image-title{
+  color: white;
+  padding-top:  100px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .image1{
