@@ -238,20 +238,55 @@ header{
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   header#image {
-        background-position: center;
+        background-position: right;
+        background-image: url("../images/taskideas2.jpg");
     }
 
-    h1.smaller-size{
-      font-size: 25px;
+    /*h1.smaller-size{
+      font-size: 35px;
     }
 
     h2.smaller-size{
-      font-size: 25px;
-    }
+      font-size: 35px;
+    }*/
 }
 
+/*@media only screen and (max-device-width: 800px) {
+    span#switcher {
+      display:block;
+      background-image: url("../images/taskideas2.jpg") !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;
+      height: 250px !important;
+    }
+    header#image {
+      display: none !important;
+    }
+  }*/
+
+
+@media only screen and (max-width: 650px) {
+  h1.smaller-size{
+    font-size: 35px;
+  }
+
+  h2.smaller-size{
+    font-size: 35px;
+  }
+}
+
+
+/*@media only screen and (max-width: 550px) {
+  h1.smaller-size{
+    font-size: 25px;
+  }
+
+  h2.smaller-size{
+    font-size: 25px;
+}*/
 
 /*@media (min-width: 780px) {
     .navbar-header {
