@@ -21,11 +21,13 @@ p.list-group-item-text{
 header#task-picture{
   background-image: url("../images/ToDoList.png");
   padding-bottom: 150px;
+  background-position: center;
 }
 
 header#Pricing{
   background-image: url("../images/Plans and Pricing header.png");
   padding-bottom: 150px;
+  background-position: center;
 }
 
 
