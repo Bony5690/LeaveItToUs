@@ -408,9 +408,11 @@ h2.heading-title{
 
 h2#image-title{
   color: white;
-  padding-top:  100px;
+  /*padding-top:  50px;*/
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: 600;
+  line-height: inherit;
 }
 
 .image1{

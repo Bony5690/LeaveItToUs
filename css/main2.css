@@ -443,8 +443,11 @@ h2.get-in-touch{
 
 section#personal {
   background-image: url("../images/personalAssistant4.jpg");
-  padding-bottom: 310px;
-  height: 100%;
+  padding-top: 110px;
+   padding-right: 0px;
+   padding-bottom: 110px;
+   padding-left: 0px
+  /*height: 100%;*/
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
