@@ -24,6 +24,12 @@ span.hidden{
   font-weight: bold;
 }
 
+.freelance{
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 p{
   color: #777;
 }
