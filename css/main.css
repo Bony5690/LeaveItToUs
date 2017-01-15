@@ -18,6 +18,11 @@ span.hidden{
   display: none;
 }
 
+.welcome{
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+}
 
 p{
   color: #777;
