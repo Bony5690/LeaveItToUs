@@ -30,6 +30,12 @@ header#Pricing{
   background-position: center;
 }
 
+header#contact{
+  background-image: url("../images/contact.png");
+  padding-bottom: 150px;
+  background-position: center;
+}
+
 
 h3.footer-title{
   color: white;

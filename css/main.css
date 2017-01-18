@@ -19,19 +19,19 @@ span.hidden{
 }
 
 .welcome{
-  color: green;
+  color: #ffc83f;
   font-size: 40px;
   font-weight: bold;
 }
 
 .freelance{
-  color: green;
+  color: #ffc83f;
   font-size: 40px;
   font-weight: bold;
 }
 
 .freelancer2{
-  color: green;
+  color: #ffc83f;
   font-size: 40px;
   font-weight: bold;
 }
@@ -227,7 +227,7 @@ header{
    height: 100%;
 
    /* Create the parallax scrolling effect */
-   background-image: url("../images/homepage.png");
+   background-image: url("../images/assistantPic2.png");
    background-attachment: fixed;
    /*background-position: center;*/
    background-repeat: no-repeat;
@@ -319,7 +319,7 @@ header{
 
 
 /* break point earlier for hamburger drop down menu*/
-@media (max-width: 1121px) {
+@media (max-width: 1134px) {
     .navbar-header {
         float: none;
     }
