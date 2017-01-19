@@ -133,7 +133,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: #27AE61 url("../images/up-arrow.png") no-repeat center 43%;
+	background: #ffc83f url("../images/up-arrow.png") no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
@@ -142,9 +142,7 @@ a:hover.back-to-top {
 	background-color: #000;
 }
 
-/*a.wrap{
-  color: white;
-}*/
+
 
 .horizontal  {
     list-style-type: none;
@@ -171,7 +169,7 @@ font-size: 21px;
   border-bottom-width: 3px;
   border-radius: 6px;
   box-sizing: border-box;
-  /*float: right;*/
+
     margin-bottom: 11px;
     padding: 20px;
     color: 777!important;
@@ -221,25 +219,7 @@ background-position: center;
 
 
 
-/*header{
-  background-image: url("../images/homepage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 310px;*/
-  /*display: block;
-  max-width: 100%;
-  height: auto;*/
-  /*background-size: 100%;*/
-  /*background-position: left;*/
-  /*position: fixed;*/
 
-           /*min-height: 100%;
-           position: relative;
-           margin: 0 auto;
-           display: block;
-           text-align: center;*/
-
-/*}*/
 
 header{
   /* Full height */
@@ -248,22 +228,10 @@ header{
    /* Create the parallax scrolling effect */
    background-image: url("../images/assistantPic2.png");
    background-attachment: fixed;
-   /*background-position: center;*/
+
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 310px;
-  /*display: block;
-  max-width: 100%;
-  height: auto;*/
-  /*background-size: 100%;*/
-  /*background-position: left;*/
-  /*position: fixed;*/
-
-           /*min-height: 100%;
-           position: relative;
-           margin: 0 auto;
-           display: block;
-           text-align: center;*/
 
 }
 
@@ -288,40 +256,6 @@ header{
         background-image: url("../images/taskideas2.png");
     }
 
-    /*h1.smaller-size{
-      font-size: 35px;
-    }
-
-    h2.smaller-size{
-      font-size: 35px;
-    }*/
-}
-
-/*@media only screen and (max-device-width: 800px) {
-    span#switcher {
-      display:block;
-      background-image: url("../images/taskideas2.jpg") !important;
-      background-repeat: no-repeat !important;
-      background-position: center !important;
-      width: 300px !important;
-      height: 250px !important;
-    }
-    header#image {
-      display: none !important;
-    }
-  }*/
-
-
-/*make font smaller at mobile width*/
-/*@media only screen and (max-width: 750px) {
-  h1.smaller-size{
-    font-size: 35px;
-  }
-
-  h2.smaller-size{
-    font-size: 35px;
-  }
-}*/
 
 /*make font smaller at tablet width*/
 @media only screen and (max-width: 1000px) {
@@ -376,24 +310,6 @@ header{
 }
 
 
-/*@media (max-width: 1121px) {
-
-}*/
-
-
-
-
-
-
-
-/*@media only screen and (max-width: 1122px) {
-.navbar-right {
-        margin-right: 0px;
-    }
-}*/
-
-
-
 .space{
   margin-top: 30px;
 }
@@ -428,7 +344,6 @@ h2.heading-title{
 
 h2#image-title{
   color: white;
-  /*padding-top:  50px;*/
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 600;
@@ -472,8 +387,7 @@ h1{
 .navbar-default {
   background-color: rgba(0,0,0,0);
   border-color: rgba(0,0,0,0);
-    /* background-color: #f8f8f8; */
-   */
+
 }
 .navbar-default .navbar-nav>li>a{
   color: white;

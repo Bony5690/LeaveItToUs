@@ -1,5 +1,4 @@
 div.nav-container{
-  /*margin-top: 50px;*/
   padding-top: 50px;
   padding-bottom: 100px;
 
@@ -455,7 +454,6 @@ section#personal {
    padding-right: 0px;
    padding-bottom: 110px;
    padding-left: 0px
-  /*height: 100%;*/
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
